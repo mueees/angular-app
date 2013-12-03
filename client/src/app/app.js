@@ -13,8 +13,8 @@ angular.module('app', [
   'templates.common']);
 
 angular.module('app').constant('MONGOLAB_CONFIG', {
-  baseUrl: '/databases/',
-  dbName: 'ascrum'
+    baseUrl: '/databases/',
+    dbName: 'mue_angular'
 });
 
 //TODO: move those messages to a separate module
